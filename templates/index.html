@@ -12,78 +12,100 @@
 </head>
 <body>
 
-<!--NavBar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><h3>  <</>/> </h3></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
+{% include 'header.html' %}
+
+<div class="container">
+    <div class="row">
+        <div class="col col-md-6 col-sm-12 col-12 intro">
+            <div class="row">
+                <div class="col col-md-6 col-sm-12 col-12 ">
+                    <h1 class="margin-20">Hello,<br>I am Ritesh</h1>
+                    <h3 class="margin-20">A programmer.</h3><br>
+                </div>
+                <div class="col col-md-6 col-sm-12 col-12">
+                    <img id='profile-pic' src="https://avatars.githubusercontent.com/u/99666733?v=4" alt="..">
+                </div>
+            </div>
+
+            <p class="margin-10">I am Computer Science student, studying in Mumbai University in India.<br>
+                I am very enthusiastic about technology and how it is helping people to save time and efforts.
+                I chose to code because I wanted to add value to society and make myself a life-time learner.
+                I learn to code using some online course, documentation and with the help of my friends.
+
+            </p>
+        </div>
+
+        <div class="col col-md-6 col-sm-12 col-12 center">
+            <img id='logo' src="../static/Images/homeLogo5.png">
+        </div>
     </div>
-  </div>
-</nav>
+</div>
 
 <div class="container">
     <div class="row">
         <div class="col col-md-6 col-sm-12 col-12 center">
-            <img id='logo' src="../static/Images/homeLogo.gif">
+            <img class="pic" src="../static/Images/skills.png">
         </div>
-        <div class="col col-md-6 col-sm-12 col-12 intro">
-            <h1 class="margin-20">Hello,<br>I am Ritesh</h1>
-            <h3 class="margin-20">A programmer.</h3><br>
-            <p class="margin-10">I am Computer Science student, studying in Mumbai University in India.<br>
-                I am very enthusiastic about technology and how it is helping people to save time and efforts.
-                I chose to code because I wanted to add value to society and make myself a life-time learner.
-                I learn to code using some online course, documentation and with help of friends.
 
-            </p>
+        <div class="col col-md-6 col-sm-12 col-12 cards">
+            <h2 class="skill-content">Skills: </h2>
+            <ul class="skill-content">
+                <li>Python</li>
+                <li>Html, CSS, JS</li>
+                <li>Database</li>
+                <li>Full Stack</li>
+                <li>People's Skill</li>
+            </ul>
         </div>
     </div>
 </div>
 
-<div class="row container margin-20">
-    <div class="col margin-20">
-        <h3>Skills: </h3>
-        <ul>
-            <li>Python</li>
-            <li>Bootstrap</li>
-            <li>Html, CSS, JavaScript</li>
-            <li>Java</li>
-        </ul>
-    </div>
-    <div class="col margin-20">
-        <h3>Education: </h3>
-        <ul>
-            <li>
-                FyCS
-                <ul>
-                    <li>Sem1 : 9.3 CGPA</li>
-                    <li>Sem2 : 9.7 CGPA</li>
-                </ul>
-            </li>
-            <li>HSC : 79.3%</li>
-            <li>SSC : 69.3%</li>
 
-        </ul>
+<div class="container">
+    <div class="row">
+        <div class="col col-md-6 col-sm-12 col-12 cards">
+            <h2 class="skill-content">Strengths : </h2>
+            <ul class="skill-content">
+                <li>Problem Solving</li>
+                <li>Consistency</li>
+                <li>Perseverance</li>
+                <li>Good Listener</li>
+                <li>Team Work</li>
+            </ul>
+        </div>
+
+        <div class="col col-md-6 col-sm-12 col-12 center">
+            <img class="pic" src="../static/Images/strength2.png">
+        </div>
     </div>
 </div>
 
+
+
+<div class="container">
+    <div class="row">
+        <div class="col col-md-6 col-sm-12 col-12 center">
+            <img class="pic" src="../static/Images/certificate1.png">
+        </div>
+
+        <div class="col col-md-6 col-sm-12 col-12 cards">
+            <h3 class="skill-content">Education: </h3>
+            <ul class="skill-content">
+                <li>
+                    FyCS:
+                    <ul>
+                        <li>Sem2 : 9.7 CGPA</li>
+                        <li>Sem1 : 9.3 CGPA</li>
+                    </ul>
+                </li>
+                <li>HSC : 79.3 %</li>
+                <li>SSC : 69.3 %</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% include 'footer.html' %}
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"

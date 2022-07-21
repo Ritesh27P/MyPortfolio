@@ -4,6 +4,7 @@ body{
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #F9F7F7;
   background: linear-gradient(to top left, #66ffff 0%, #ff99cc 100%);
+  color: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
 }
 
 #logo{
@@ -11,11 +12,28 @@ body{
     width: 350px;
     border-radius: 30%;
     position: relative;
-    right: 50px;
+    top: 30px;
     text-align: center;
-    margin-top: 20px;
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    margin: 20px 10px;
+}
 
+.cards{
+    margin-top: 100px;
+    border-radius: 25px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+}
+.pic {
+    width: 350px;
+    border-radius: 30%;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    margin: 20px 10px;
+}
+.skill-content{
+    margin: 20px;
 }
 
 .container1{
@@ -42,24 +60,14 @@ body{
     text-align: center;
 }
 
-#background-pic {
-    width: 100%;
-    position: relative;
-    bottom: 100px;
-}
-
 #profile-pic {
-    width: 350px;
-    border-radius: 50%;
-    position: relative;
-    right: 50px;
-    text-align: center;
-    position: relative;
+    width: 150px;
+    border-radius: 25px;
     margin-top: 20px;
 }
 
 .intro {
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #DBE2EF;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -71,6 +79,20 @@ body{
 }
 .margin-10{
     margin: 10px;
+}
+
+.margin-60{
+    margin: 60px;
+}
+
+.margin-top{
+    margin-top: 80px;
+}
+
+.design_images{
+    width: 150px;
+    position: relative;
+    right: 30px;
 }
 
 .box-shadow {
