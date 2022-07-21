@@ -1,0 +1,12 @@
+body{
+  background-size: cover;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #F9F7F7;
+  background: linear-gradient(to top left, #33ccff 0%, #ff9999 100%);
+  color: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+}
+
+.clr{
+    background: linear-gradient(to right, #66ffff 0%, #ccffff 100%);
+    color: linear-gradient(to right, #66ffff 0%, #ccffff 100%)
+}
