@@ -17,6 +17,11 @@ body{
     margin: 20px 10px;
 }
 
+.background-pic{
+    height: 400px;
+    width: 100%;
+}
+
 .btn1:hover{
     color: white;
 }
@@ -93,6 +98,27 @@ body{
     margin-top: 80px;
 }
 
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-bottom{
+    margin-bottom: 80px;
+}
+
+.width-30{
+    width: 30px;
+}
+
+.contact{
+    height: 600px;
+    width: 700px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    background: linear-gradient(to left, #00ffcc 0%, #3399ff 100%);
+
+}
+
 .design_images{
     width: 150px;
     position: relative;
@@ -139,7 +165,7 @@ body{
   padding-top: 50px;
   height: 180px;
   text-align: center;
-
+  width: 100%;
   background: linear-gradient(to bottom, #ffcccc 0%, #ccffff 100%)
 }
 

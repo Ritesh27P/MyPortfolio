@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, request
 from flask_bootstrap import Bootstrap
 
 
@@ -11,8 +11,9 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/contact')
+@app.route('/contact', methods=['POST', 'GET'])
 def contact():
+
     return render_template('contact.html')
 
 
@@ -20,6 +21,10 @@ def contact():
 def redirect_home():
     return redirect(url_for('home'))
 
+
+@app.route('/contact-submit', methods=['POST', 'GET'])
+def contact_submit():
+    return redirect(url_for('home'))
 
 if __name__ == "__main__":
     app.run(debug=True)
