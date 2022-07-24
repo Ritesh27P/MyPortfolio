@@ -1,0 +1,8 @@
+body {
+ background-image: url("../static/Images/skills.png");
+ background-color: #cccccc;
+}
+
+.background-img{
+  background-image: url("../static/Images/skills.png");
+}

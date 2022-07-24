@@ -179,3 +179,6 @@ form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid #dee2e6;
 }
 
+.background-img{
+  background-image: url("../static/Images/skills.png");
+}

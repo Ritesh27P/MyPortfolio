@@ -36,8 +36,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active btn1" aria-current="page" href="{{ url_for('redirect_home') }}">Home</a>
-        <a class="nav-link btn1" href="#">About Me</a>
-        <a class="nav-link btn1" href="#">My Projects</a>
+        <a class="nav-link btn1" href="{{ url_for('about') }}">About Me</a>
+        <a class="nav-link btn1" href="{{ url_for('project') }}">My Projects</a>
         <a class="nav-link btn1" href="{{ url_for('contact') }}">Contact</a>
       </div>
     </div>
