@@ -26,6 +26,7 @@ def contact():
 def project():
     return render_template('projects.html')
 
+
 @app.route('/')
 def redirect_home():
     return redirect(url_for('home'))

@@ -3,8 +3,12 @@ body{
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #F9F7F7;
   background: linear-gradient(to top left, #33ccff 0%, #ff9999 100%);
-  background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%)
-  color: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+/*  background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+*/
+}
+
+.gradient{
+    background: linear-gradient(to bottom, #ffccff 0%, #ffff99 100%);
 }
 
 #logo{
@@ -16,6 +20,24 @@ body{
     text-align: center;
     margin: 20px 10px;
 }
+
+.title-font{
+    background: -webkit-linear-gradient(45deg, #3a29f7, #00ff95 80%);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 600%;
+
+}
+
+.title-font-index{
+    background: -webkit-linear-gradient(45deg, #3a29f7, #00ff95 80%);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 600%; */
+}
+
 
 .background-pic{
     height: 400px;
@@ -71,7 +93,7 @@ body{
 
 #profile-pic {
     width: 150px;
-    border-radius: 25px;
+    border-radius: 50%;
     margin-top: 20px;
 }
 
@@ -81,6 +103,7 @@ body{
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 .margin-20{
@@ -154,7 +177,7 @@ body{
 
 .footer-pic{
     margin: 20px 20px 20px 0px;
-    width: 50px;
+    width: 40px;
     border-radius: 50%;
 }
 
@@ -181,4 +204,13 @@ form .form-group:first-child .floating-label-form-group {
 
 .background-img{
   background-image: url("../static/Images/skills.png");
+}
+
+.projectblock{
+    width: 30%;
+    height: 200px;
+    border-radius: 30px;
+    background-color: red;
+    margin: 20px;
+
 }
