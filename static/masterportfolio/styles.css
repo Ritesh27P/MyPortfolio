@@ -3,8 +3,8 @@ body{
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #F9F7F7;
   background: linear-gradient(to top left, #33ccff 0%, #ff9999 100%);
-/*  background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-*/
+ background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
 }
 
 .gradient{
@@ -70,22 +70,7 @@ body{
 .container1{
   display: inline-block;
 }
-.typed-out{
-  overflow: hidden;
-  border-right: .15em solid orange;
-  white-space: nowrap;
-  animation: typing 0.4s steps(8, end) forwards;
-  font-size: 1.6rem;
-  width: 0;
-}
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-@keyframes blink {
-  from { border-color: transparent }
-  to { border-color: orange; }
-}
+
 
 .center {
     text-align: center;
@@ -95,6 +80,8 @@ body{
     width: 150px;
     border-radius: 50%;
     margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background: linear-gradient(to bottom, #ffff4f 0%, #ff99cc 100%);
 }
 
 .intro {
@@ -214,3 +201,22 @@ form .form-group:first-child .floating-label-form-group {
     margin: 20px;
 
 }
+
+
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: typing 0.4s steps(8, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
