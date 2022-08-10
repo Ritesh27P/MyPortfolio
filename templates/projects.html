@@ -8,16 +8,24 @@
 
 {% include 'header.html' %}
 
-<div class="container center">
-  <h1 class="title-font">My Projects</h1>
+
+<div class="container">
+  <div class="row">
+      <div class="col col-md-6 col-sm-12 col-12">
+          <h1 class="title-font">My Projects</h1>
+      </div>
+
+      <div class="col col-md-6 col-sm-12 col-12 center">
+          <img id='logo' src="../static/Images/1.png">
+      </div>
+  </div>
 </div>
 
 
 
-
-<div class="container margin-60 center">
+<div class="container center">
     <div class="row">
-        <div class="col margin-top-20">
+        <div class="col margin-top">
             <div class="card" style="width: 18rem;">
                 <img src="../static/Images/Projects/blog.png" class="card-img-top" alt="...">
                 <div class="card-body gradient">
@@ -28,7 +36,7 @@
               </div>
         </div>
     
-        <div class='col margin-top-20'>
+        <div class='col margin-top'>
             <div class="card" style="width: 18rem;">
                 <img src="../static/Images/Projects/drumkit.png" class="card-img-top" alt="...">
                 <div class="card-body gradient">
@@ -39,7 +47,7 @@
               </div>
         </div>
     
-        <div class="col margin-top-20">
+        <div class="col margin-top ">
             <div class="card" style="width: 18rem;">
                 <img src="../static/Images/Projects/tictactoe.png" class="card-img-top" alt="...">
                 <div class="card-body gradient">
@@ -50,16 +58,23 @@
               </div>
         </div>
     
+
+        <div class="col margin-top ">
+          <div class="card" style="width: 18rem;">
+              <img src="../static/Images/Projects/tictactoe.png" class="card-img-top" alt="...">
+              <div class="card-body gradient">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
 
-
-
-
-
-
-<div class="container-fluid margin-top">
+<!-- <div class="container-fluid margin-top">
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -114,8 +129,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-</div>
+</div> -->
 
+<img src="../static/Images/Projects/drumkit.png" class="img-fluid margin-top" alt="...">
 
 {% include 'footer.html' %}
 
