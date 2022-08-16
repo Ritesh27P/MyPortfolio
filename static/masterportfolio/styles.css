@@ -30,6 +30,37 @@ body{
 
 }
 
+.project11{
+    width: 300px;
+    padding: 10px;
+}
+.project12{
+    width: 300px;
+    padding: 10px;
+}
+.project2{
+    width: 600px;
+    padding: 10px;
+}
+.border-red{
+    background-color: red;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+}
+.border-green{
+    background-color: green;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+}
+.border-yellow{
+    background-color: yellow;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+}
+
 .title-font-index{
     background: -webkit-linear-gradient(45deg, #3a29f7, #00ff95 80%);
     font-weight: 800;
