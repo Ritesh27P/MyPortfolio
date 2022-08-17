@@ -31,16 +31,24 @@ body{
 }
 
 .project11{
-    width: 300px;
+    width: 40%;
     padding: 10px;
 }
 .project12{
-    width: 300px;
+    width: 40%;
     padding: 10px;
 }
 .project2{
-    width: 600px;
+    width: 100%;
     padding: 10px;
+}
+.project6{
+    width: 70%;
+    padding: 10px;
+}
+.full-pic{
+    width: 60%;
+    padding: 30px;
 }
 .border-red{
     background-color: red;
@@ -56,6 +64,12 @@ body{
 }
 .border-yellow{
     background-color: yellow;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+}
+.border-blank{
+    background-color: transparent;
     border-style: solid;
     border-width: 3px;
     border-radius: 25px;
@@ -142,9 +156,15 @@ body{
 .margin-top-20{
     margin-top: 20px;
 }
+.margin-top-10{
+    margin-top: 20px;
+}
 
 .margin-bottom{
     margin-bottom: 80px;
+}
+.margin-side-5{
+    margin: 0px 5px 0px 5px;
 }
 
 .width-30{
