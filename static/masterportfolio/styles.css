@@ -3,7 +3,7 @@ body{
   font-family: 'Trebuchet MS', sans-serif;
   background-color: #F9F7F7;
   background: linear-gradient(to top left, #33ccff 0%, #ff9999 100%);
- background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 
 }
 
@@ -30,6 +30,9 @@ body{
 
 }
 
+.max-font-size{
+    font-size: 10rem;
+}
 .project11{
     width: 40%;
     padding: 10px;
