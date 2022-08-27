@@ -6,6 +6,13 @@ body{
   background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 
 }
+strong{
+    background: -webkit-linear-gradient(45deg, #4776E6, #8E54E9 80%);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: 600%; */
+}
 
 .gradient{
     background: linear-gradient(to bottom, #ffccff 0%, #ffff99 100%);
@@ -30,8 +37,52 @@ body{
 
 }
 
+.about-me-pic{
+    width: 45%;
+}
+
+
 .max-font-size{
-    font-size: 10rem;
+    background: -webkit-linear-gradient(45deg, #4776E6, #8E54E9 80%);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 900%;
+    height: 400px;
+    margin-bottom: 100px;
+}
+@media (max-width: 820px){
+    .max-font-size{
+        font-size: 600%;
+        height: 200px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .greet-tag{
+        text-align: center;
+    }
+    .about-me-pic{
+        width: 50%;
+    }
+}
+@media (max-width: 550px){
+    .max-font-size{
+        font-size: 300%;
+        height: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .greet-tag{
+        text-align: center;
+    }
+    .about-me-pic{
+        width: 60%;
+    }
+    .full-pic{
+        width: 200px;
+        /* padding: 30px; */
+        /* margin: 10% 15% 0% 15%; */
+    }
 }
 .project11{
     width: 40%;
@@ -50,8 +101,18 @@ body{
     padding: 10px;
 }
 .full-pic{
-    width: 60%;
+    width: 400px;
     padding: 30px;
+    text-align: center;
+    margin-top: 75px;
+}
+.detail{
+    margin: 0px 20px;
+    font-weight: 900;
+}
+.detail1{
+    margin: 50px 20px;
+    font-weight: 200;
 }
 .border-red{
     background-color: red;
@@ -155,7 +216,9 @@ body{
 .margin-top{
     margin-top: 80px;
 }
-
+.margin-100{
+    margin-top: 100px;
+}
 .margin-top-20{
     margin-top: 20px;
 }
