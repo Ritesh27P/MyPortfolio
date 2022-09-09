@@ -26,6 +26,44 @@ strong{
     background: linear-gradient(to bottom, #ffff4f 0%, #ff99cc 100%);
 }
 
+/* Progress styles */
+.progress-bar {
+    background-color: whiteSmoke;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
+  
+    width: 250px;
+    height: 20px;
+    
+    position: relative;
+    display: block;
+  }
+    
+.progress-bar > span {
+    background-color: blue;
+    border-radius: 2px;
+  
+    display: block;
+    text-indent: -9999px;
+}
+
+.circle-wrap .inside-circle {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background: #d2eaf1;
+    line-height: 120px;
+    text-align: center;
+    margin-top: 14px;
+    margin-left: 14px;
+    color: #1e51dc;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+}
+  
+
 #logo{
 
     width: 350px;
