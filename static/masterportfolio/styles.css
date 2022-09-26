@@ -150,6 +150,12 @@ strong{
     width: 70%;
     padding: 10px;
 }
+
+.book-cover{
+    width: 40%;
+    margin: 20px 0px;
+}
+
 .full-pic{
     width: 400px;
     padding: 30px;
