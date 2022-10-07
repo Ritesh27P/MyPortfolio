@@ -61,6 +61,14 @@ ul {
     background: linear-gradient(to bottom, #ffccff 0%, #ffff99 100%);
 }
 
+.dark-gradient{
+    background: -webkit-linear-gradient(45deg, #370970, #2bd40d 80%);
+    font-weight: 800;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 300%;
+}
+
 .icon-pic{
     width: 150px;
     border-radius: 50%;
@@ -189,6 +197,10 @@ ul {
     padding: 10px;
     /* border-radius: 25px; */
 
+}
+.project111{
+    width: 70%;
+    padding: 10px;
 }
 .project12{
     width: 40%;
